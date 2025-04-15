@@ -1,0 +1,178 @@
+body{
+    background-image: url(https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Foem-spotlight%2F5e2efbf2-7f65-4f32-8ead-7e640dd1abaf.png);
+    
+}
+li {
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    /*border: 2px solid #fff;*/
+    float:right;
+    color: #3d0f3d;
+    
+}
+li a {
+    color:#3d0f3d;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgba(135, 102, 156, 0.781);
+    background-color: #ffffff15;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    /*height: 20%;*/
+    width: auto;
+    height: auto;
+    border-bottom-left-radius:2cqb;
+    border-bottom-right-radius:2cqb;
+    padding: 2px;
+    color: #fff;
+    
+}
+#imggg{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin: 20px;
+}
+#lll {
+    text-align: center;
+    color: #3d0f3d;
+}
+#reg{
+    text-align: center;
+    gap: 10px;
+    color: #3d0f3d;
+}
+#reg img{
+    border: #3d0f3d65 solid 2px;
+    margin: 10px;
+    
+}
+#ooo{
+    text-align: center;
+    color: #3d0f3d;
+
+}
+.amd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: row;
+    
+}
+.amd img{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+#cab{
+    text-align: center;
+}
+#cab h3{
+    text-align: left;
+}
+#cab p{
+    text-align: right;
+    padding: 2px;
+
+}
+.ter{
+    text-align: left;
+    margin: 20px;
+}
+.foot{
+    background-color: rgba(45, 15, 73, 0.322);
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot h2{
+    text-align: center;
+    align-items: center;
+}
+/* Media Queries para Responsividade */
+
+/* Para telas pequenas (como celulares) */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+    }
+    body{
+       background-color: #fff;
+    }
+    #ilus{
+        text-align:center;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+       
+       
+        
+    }
+    #imggg{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    #oo{
+        text-align: center;
+    
+    }
+    .amd{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #cab{
+        text-align: center;
+    }
+    
+    /*#streaming {
+        display: flex;
+        flex-direction: column;
+         /* height: 300px;
+          
+    }*/
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+}
+ /*Para telas médias (como tablets) 
+ @media (max-width:1024px){
+    section{
+        width: 45%;
+
+    }
+
+ }*/
+
+ 
+/* Para telas grandes (como desktops) */
+@media (min-width: 1025px){
+    section{
+    width:auto;
+    }
+    
+} 
+
+

@@ -1,0 +1,144 @@
+body{
+    background-image: url( https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fpage-background%2F3f648045-a1b0-48a5-876e-2097472b0229.webp);
+   
+}
+li {
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    /*border: 2px solid #fff;*/
+    float:right;
+    
+}
+li a {
+    color: #ffffffb9;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgba(135, 102, 156, 0.781);
+    background-color: #ffffff15;
+}
+nav{
+    height: 20%;
+    border-bottom-left-radius:2cqb;
+    border-bottom-right-radius:2cqb;
+    padding: 2px;
+    color: #fff;
+    
+}
+.ini{
+    display: flex;
+    text-align: center;
+    align-items:center;
+    flex-direction: column;
+    color: #ffffffb2;
+    margin: 10px;
+    
+}
+.ini h1{
+    padding: 10px;
+    margin: 30px;
+}
+.ini img{
+    margin: 40px;
+}
+.disp{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    align-items: baseline;
+    padding: 10px;
+    /*margin: 2px;*/
+    background-color: #ffffff07;
+    color: #ffffffb2;
+    width: auto;
+    height: auto;
+}
+.perg{
+  
+    width:auto;
+    height:auto;
+    padding:10px;
+    background-color: #ffffffe5;
+    text-align: center;
+   
+
+}
+.pergt{
+    display: flex;
+    justify-items: baseline;
+    /*align-items: baseline;*/
+    text-align: center;
+    flex-direction: column;
+
+}
+.perg p{
+    margin: 10px;
+    padding: 10px;
+}
+.perg h3{
+    margin: 20px;
+}
+.foot{
+    background-color: rgba(45, 15, 73, 0.322);
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot h2{
+    text-align: center;
+    align-items: center;
+}
+/* Media Queries para Responsividade */
+
+/* Para telas pequenas (como celulares) */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+    }
+    .ini{
+        text-align:center;
+        flex-direction: column;
+        justify-content:center;  
+    }
+    #imgg{
+        align-items: center;
+        justify-content: center;
+        min-width: 50%;
+        min-height: 50%;
+       
+    }
+    .disp{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    
+    /*#streaming{
+       width: 200px;
+       height: 300px;
+       padding: 10px;
+    }*/
+    footer{
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+}
+
